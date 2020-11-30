@@ -8,5 +8,21 @@
       "identity",
       "verifiable-credentials",
       "discord"
-    ]
+    ],
+    "env": {
+      "AGENT_URL": {
+        "description": "Agent URL",
+        "value": "https://sun-agent.herokuapp.com/agent"
+      },
+      "API_KEY": {
+        "description": "Agent API key"
+      },
+      "DISCORD_BOT_DID_ALIAS": {
+        "description": "Discord bot DID alias",
+        "value": "sun-agent.herokuapp.com:mercury"
+      },
+      "DISCORD_TOKEN": {
+        "description": "Discord token"
+      }
+    }
   }

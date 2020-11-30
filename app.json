@@ -24,10 +24,5 @@
       "DISCORD_TOKEN": {
         "description": "Discord token"
       }
-    },
-    "buildpacks": [
-      {
-        "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
-      }
-    ]
+    }
   }

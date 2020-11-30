@@ -6,7 +6,7 @@
   "author": "Simonas Karuzas <simonas@not.cat>",
   "license": "MIT",
   "scripts": {
-    "start": "NODE_ENV=production ts-node src/bot",
+    "start": "NODE_ENV=production http-server -p $PORT && ts-node ./src/bot",
     "build": "tsc",
     "watch": "tsc -w"
   },
@@ -14,6 +14,7 @@
     "daf-core": "^7.0.0-beta.51",
     "daf-rest": "^7.0.0-beta.51",
     "discord.js": "^12.5.1",
+    "http-server": "^0.12.3",
     "ts-node": "^9.0.0",
     "typescript": "^4.1.2"
   },

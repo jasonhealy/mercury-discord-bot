@@ -1,7 +1,7 @@
 {
     "name": "Heroku Mercury Discord bot",
     "description": "Experimental Discord bot",
-    "repository": "https://github.com/sertolabs/mercury-discord-bot",
+    "repository": "https://github.com/jasonhealy/mercury-discord-bot",
     "keywords": [
       "node",
       "daf",

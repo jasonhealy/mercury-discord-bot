@@ -6,7 +6,9 @@
   "author": "Simonas Karuzas <simonas@not.cat>",
   "license": "MIT",
   "scripts": {
-    "start": "NODE_ENV=production http-server -p $PORT && ts-node ./src/bot",
+    "start": "NODE_ENV=production yarn start:bot && yarn start:dummy-bind",
+    "start:bot":"node ./build/bot",
+    "start:dummy-bind":"http-server -p $PORT",
     "build": "tsc",
     "watch": "tsc -w"
   },

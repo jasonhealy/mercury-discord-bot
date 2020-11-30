@@ -6,15 +6,15 @@
   "author": "Simonas Karuzas <simonas@not.cat>",
   "license": "MIT",
   "scripts": {
-    "start": "NODE_ENV=production node build/bot.js",
+    "start": "NODE_ENV=production ts-node src/bot",
     "build": "tsc",
-    "watch": "tsc -w",
-    "postinstall": "tsc"
+    "watch": "tsc -w"
   },
   "dependencies": {
     "daf-core": "^7.0.0-beta.51",
     "daf-rest": "^7.0.0-beta.51",
     "discord.js": "^12.5.1",
+    "ts-node": "^9.0.0",
     "typescript": "^4.1.2"
   },
   "devDependencies": {
@@ -22,8 +22,5 @@
     "@types/ws": "^7.4.0",
     "daf-typeorm": "^7.0.0-beta.51",
     "daf-w3c": "^7.0.0-beta.51"
-  },
-  "engines": {
-    "node": "12.x"
   }
 }
